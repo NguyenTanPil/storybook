@@ -15,8 +15,6 @@ export default function InboxScreen() {
 		dispatch(fetchTasks());
 	}, []);
 
-	console.log({ error });
-
 	if (error) {
 		return (
 			<div className='page lists-show'>
