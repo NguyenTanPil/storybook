@@ -3,7 +3,7 @@ const longTitleString = `This task's name is absurdly large. In fact, I think if
 
 export default {
 	component: Task,
-	title: 'Task',
+	title: 'Design System/Atoms/Task',
 	tags: ['autodocs'],
 };
 
